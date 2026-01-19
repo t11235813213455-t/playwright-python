@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PLAYWRIGHT_DEBUG": "1"
+            },
+            "justMyCode": false
+        },
+        {
+            "name": "Playwright: Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/test_example.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PLAYWRIGHT_DEBUG": "1"
+            },
+            "stopOnEntry": false,
+            "justMyCode": false
+        }
+    ]
+}
